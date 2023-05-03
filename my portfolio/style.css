@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Dancing+Script&family=Fira+Sans:ital,wght@1,200&family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;1,200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(142, 141, 141);
+    width: 20vw;
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.main {
+    background-color: yellow;
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    background-color: rgb(157, 0, 255);
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    font-size: 65px;
+    font-weight: bold;
+}
+.name{
+   font-size: 50px;
+   font-family: 'Fira Sans', sans-serif;
+}
+.about{
+    font-size: 45px;
+}
+
+.moreabout {
+    font-size: 20px;
+}
+
+.button {
+    margin-top: 34px;
+}
+.button button {
+    padding: 9 px 14 px;
+    border-radius: 22 px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 3 px;
+
+}
+
+
+.devpic img{
+    height: 58vh;
+}
